@@ -39,6 +39,7 @@ embeddings_dataset = property_dataset.map(
 
 embeddings_dataset.add_faiss_index(column='embeddings')
 
+# Api for search results
 def index(request, question):
 
     question_embedding = get_embeddings([question]).numpy()
