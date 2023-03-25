@@ -1,2 +1,8 @@
 Django==4.1.7
 django-browser-reload==1.6.0
+tensorflow 
+pandas
+numpy
+datasets
+transformers
+faiss-gpu
